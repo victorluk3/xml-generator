@@ -91,7 +91,6 @@ export default {
     }
   },
   mounted() {
-    console.log('mounted')
     this.preload()
   },
   methods: {
@@ -114,7 +113,6 @@ export default {
         ])]
     },
     updateCurrentNode(data){
-      console.log('event triggered', data)
       this.currentNode = data
     },
     addNode(){
